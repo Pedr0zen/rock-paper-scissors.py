@@ -18,7 +18,6 @@ O jogo segue as regras clássicas: Pedra > Tesoura, Tesoura > Papel, Papel > Ped
 Primeira tentativa, sem opção de empate e apenas começando a estruturar a lógica.
 ![v1](https://github.com/user-attachments/assets/8d96ea47-36b6-4867-b520-983134cb027d)
 
-
 ---
 # Versão 2 - Evolução com erros
 Aqui tentei avançar, mas o código estava com problemas:
@@ -35,7 +34,7 @@ Já estava funcionando melhor, porém:
 - Ainda sem **armazenamento** de partidas.
 - Algumas possibilidades não eram tratadas corretamente.
 - Variáveis sem o devido `int` em alguns lugares.
-![v3](https://github.com/user-attachments/assets/63bbef83-bef3-499b-b92b-bdcd70a9c374)
+![v3](https://github.com/user-attachments/assets/fce05c22-23a7-4918-9b35-c90d592add3b)
 
 ---
 
