@@ -16,7 +16,8 @@ O jogo segue as regras clássicas: Pedra > Tesoura, Tesoura > Papel, Papel > Ped
 ## 📸 Desenvolvimento
 # Versão 1 - Início do código
 Primeira tentativa, sem opção de empate e apenas começando a estruturar a lógica.
-![v1](https://github.com/user-attachments/assets/8eb7f8fd-eb60-442f-93ed-c1f19c244e5d)
+![v1](https://github.com/user-attachments/assets/8d96ea47-36b6-4867-b520-983134cb027d)
+
 
 ---
 # Versão 2 - Evolução com erros
@@ -25,7 +26,7 @@ Aqui tentei avançar, mas o código estava com problemas:
 - Uso errado de `random.random()` (não aceita parâmetros).
 - Estrutura `if/elif` incorreta.
 - Não havia tratamento de **empate**.
-![v2](https://github.com/user-attachments/assets/3a3d06e4-fb23-40f1-9587-56ca27fe4c54)
+![v2](https://github.com/user-attachments/assets/0e479c26-4572-4228-8b0d-036e20a08e17)
 
 ---
 
@@ -50,7 +51,12 @@ Na versão final, o jogo está totalmente funcional:
 
 ## 🚀 Como Rodar
 ```bash
+# Clone o repositório
 git clone https://github.com/Pedr0sun/pedr0sun-rps.git
-cd pedr0sun-rps
+
+# Entre na pasta do projeto
+cd rock-paper-scissors
+
+# Execute o jogo
 rock-paper-scissors.py
 
