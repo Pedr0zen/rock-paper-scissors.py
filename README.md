@@ -1,7 +1,7 @@
 # rock-paper-scissors.py
 #🌑📄✂ Pedra, Papel e Tesoura – Python | Treino de lógica ,estruturas condicionais e aplicação de listas e random.
 
-![Badge](https://img.shields.io/badge/Feito_por-Pedr0Taker-blue?style=for-the-badge)
+![Badge](https://img.shields.io/badge/Feito_por-Pedr0sun-blue?style=for-the-badge)
 ![Badge](https://img.shields.io/badge/Python-3.x-yellow?style=for-the-badge)
 ![Badge](https://img.shields.io/badge/Status-Concluído-brightgreen?style=for-the-badge)
 🛠 Tecnologias
@@ -49,7 +49,7 @@ Na versão final, o jogo está totalmente funcional:
 
 ## 🚀 Como Rodar
 ```bash
-git clone https://github.com/Pedr0Taker/pedr0taker-rps.git
-cd pedr0taker-rps
-python pedra_papel_tesoura.py
+git clone https://github.com/Pedr0Taker/pedr0sun-rps.git
+cd pedr0sun-rps
+rock-paper-scissors.py
 
