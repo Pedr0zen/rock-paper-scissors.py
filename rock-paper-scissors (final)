@@ -1,0 +1,37 @@
+import random
+
+armazenamento = [1,2,3]
+print('ESCOLHA [1]PEDRA,[2]PAPEL e [3]TESOURA')
+escolha  = int((input('Escolha um dos elementos acima:')))
+
+
+if escolha==1:
+    print(f'OK! VOCE ESCOLHEU {[escolha]}PEDRA!')
+elif escolha==2:
+    print(f'OK! VOCE ESCOLHEU PAPEL {[escolha]}PAPEL!')
+elif escolha==3:
+    print(f'OK! VOCE ESCOLHEU TESOURA{[escolha]}TESOURA!')
+else:
+    print('opcao invalida')
+    exit()
+aleatorio = random.choice(armazenamento)
+
+#PL1 vence
+if escolha==3 and aleatorio==2:
+    print(f'PL1 {[escolha]}TESOURAx PL1 PAPEL{[escolha]} = PL1 win🏆') #PL1 TESOURA x CPU PAPEL
+elif escolha==2 and aleatorio==1:
+ print(f'PL1 {[escolha]} PAPEL x CPU {[aleatorio]} PEDRA= PL1 win🏆') #PL1 PAPEL x CPU PEDRA
+elif escolha==1 and aleatorio==3:
+    print(f'PL1 {[escolha]} PEDRA x CPU {[aleatorio]}TESOURA = PL1 win🏆') #PL1 Pedra x CPU Tesoura
+#CPU vence
+elif escolha == 1 and aleatorio == 2:
+ print(f'PL1 {[escolha]} PEDRA x CPU {[aleatorio]} PAPEL = CPU win💔') #CPU PAPEL x PL1 PEDRA
+elif escolha==3 and aleatorio==1:
+ print(f'PL1 {[escolha]} TESOURA x CPU {[aleatorio]} PEDRA = CPU win💔') #CPU PEDRA x PL1 TESOURA
+elif escolha==2 and aleatorio==3:
+ print(f'PL1 {[escolha]} PAPEL x CPU {[aleatorio]} TESOURA = CPU win💔') #CPU TESOURA x PL1 PAPEL
+#empate
+else:
+    print(f'PL1 {[escolha]} x CPU {[aleatorio]} = Empate😬!')
+
+
