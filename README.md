@@ -44,12 +44,13 @@ Na versão final, o jogo está totalmente funcional:
 - Tratamento de **todas as possibilidades**.
 - Incluído caso de **empate**.
 - **Histórico de partidas** armazenado em lista.
+![Final](https://github.com/user-attachments/assets/93c37f3e-4b51-4f82-8d62-28d586006919)
 
 ---
 
 ## 🚀 Como Rodar
 ```bash
-git clone https://github.com/Pedr0Taker/pedr0sun-rps.git
+git clone https://github.com/Pedr0sun/pedr0sun-rps.git
 cd pedr0sun-rps
 rock-paper-scissors.py
 
